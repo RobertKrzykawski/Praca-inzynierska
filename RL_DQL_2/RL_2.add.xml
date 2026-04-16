@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <laneAreaDetector id="Node1_2_EB_0" lane="Node1_2_EB_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node1_2_EB_1" lane="Node1_2_EB_3" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node1_2_EB_2" lane="Node1_2_EB_4" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="Node2_7_SB_0" lane="Node2_7_SB_2" pos="-100.00" length="83.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_7_SB_1" lane="Node2_7_SB_3" pos="-100.00" length="83.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_7_SB_2" lane="Node2_7_SB_4" pos="-100.00" length="83.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    
+    <laneAreaDetector id="Node2_3_WB_0" lane="Node2_3_WB_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_3_WB_1" lane="Node2_3_WB_3" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_3_WB_2" lane="Node2_3_WB_4" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="Node2_5_NB_0" lane="Node2_5_NB_2" pos="-100.00" length="95.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_5_NB_1" lane="Node2_5_NB_3" pos="-100.00" length="95.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_5_NB_2" lane="Node2_5_NB_4" pos="-100.00" length="95.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="Node2_5_SB_Det_0" lane="Node2_5_SB_2" pos="-100.00" length="95.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_5_SB_Det_1" lane="Node2_5_SB_3" pos="-100.00" length="95.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node2_5_SB_Det_2" lane="Node2_5_SB_4" pos="-100.00" length="95.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="Node4_5_EB_0" lane="Node4_5_EB_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node4_5_EB_1" lane="Node4_5_EB_3" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node4_5_EB_2" lane="Node4_5_EB_4" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="Node6_5_WB_0" lane="Node6_5_WB_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node6_5_WB_1" lane="Node6_5_WB_3" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="Node6_5_WB_2" lane="Node6_5_WB_4" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+</additional>
