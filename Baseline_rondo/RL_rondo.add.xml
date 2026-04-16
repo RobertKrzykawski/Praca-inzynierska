@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <laneAreaDetector id="det_N_0" lane="E1_1" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="det_N_1" lane="E1_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="det_E_0" lane="E2_1" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="det_E_1" lane="E2_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="det_S_0" lane="E3_1" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="det_S_1" lane="E3_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+
+    <laneAreaDetector id="det_W_0" lane="E4_1" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+    <laneAreaDetector id="det_W_1" lane="E4_2" pos="-100.00" length="100.00" friendlyPos="true" period="1.00" file="output/detectors.xml"/>
+</additional>

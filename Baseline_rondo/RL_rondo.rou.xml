@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car" length="5.00" maxSpeed="15.00" accel="2.0" decel="4.0" sigma="0.5" guiShape="passenger" minGap="2.5" jmIgnoreKeepClearTime="-1" tau="1.5"/> 
+    <vType id="bus" length="12.00" maxSpeed="12.00" vClass="bus" guiShape="bus" color="yellow" accel="1.2" decel="4.0" jmIgnoreKeepClearTime="-1"/> 
+    <vType id="ambulance" length="6.00" maxSpeed="25.00" vClass="emergency" guiShape="emergency" accel="3.0" decel="5.0" minGap="3.0" color="red" speedFactor="1.5"> 
+        <param key="has.bluelight.device" value="true"/><param key="jmIgnoreFoeProb" value="0.0"/> 
+    </vType> 
+    <vType id="firetruck" length="10.00" maxSpeed="20.00" vClass="emergency" guiShape="firebrigade" accel="2.5" decel="4.5" minGap="3.0" color="orange" speedFactor="1.3"> 
+        <param key="has.bluelight.device" value="true"/><param key="jmIgnoreFoeProb" value="0.0"/> 
+    </vType> 
+
+    <flow id="W_S" type="car" begin="0" end="6000" vehsPerHour="300" from="E4" to="-E2" departLane="best"/>
+    <flow id="W_L" type="car" begin="0" end="6000" vehsPerHour="60" from="E4" to="-E1" departLane="best"/>
+    <flow id="W_R" type="car" begin="0" end="6000" vehsPerHour="80" from="E4" to="-E3" departLane="best"/>
+
+    <flow id="E_S" type="car" begin="0" end="6000" vehsPerHour="300" from="E2" to="-E4" departLane="best"/>
+    <flow id="E_L" type="car" begin="0" end="6000" vehsPerHour="60" from="E2" to="-E3" departLane="best"/>
+    <flow id="E_R" type="car" begin="0" end="6000" vehsPerHour="80" from="E2" to="-E1" departLane="best"/>
+
+    <flow id="N_S" type="car" begin="0" end="6000" vehsPerHour="300" from="E1" to="-E3" departLane="best"/>
+    <flow id="N_L" type="car" begin="0" end="6000" vehsPerHour="60" from="E1" to="-E4" departLane="best"/>
+    <flow id="N_R" type="car" begin="0" end="6000" vehsPerHour="80" from="E1" to="-E2" departLane="best"/>
+
+    <flow id="S_S" type="car" begin="0" end="6000" vehsPerHour="300" from="E3" to="-E1" departLane="best"/>
+    <flow id="S_L" type="car" begin="0" end="6000" vehsPerHour="60" from="E3" to="-E2" departLane="best"/>
+    <flow id="S_R" type="car" begin="0" end="6000" vehsPerHour="80" from="E3" to="-E4" departLane="best"/>
+
+    <flow id="amb_mix" type="ambulance" begin="0" end="6000" vehsPerHour="5" from="E4" to="-E2" departLane="best"/>
+    <flow id="fire_mix" type="firetruck" begin="0" end="6000" vehsPerHour="5" from="E3" to="-E1" departLane="best"/>
+    <flow id="bus_mix" type="bus" begin="0" end="6000" vehsPerHour="30" from="E2" to="-E4" departLane="best"/>
+
+    <personFlow id="pf_1" begin="0" end="6000" personsPerHour="80"><personTrip from="E4" to="-E2"/></personFlow>
+    <personFlow id="pf_2" begin="0" end="6000" personsPerHour="80"><personTrip from="E2" to="-E4"/></personFlow>
+    <personFlow id="pf_3" begin="0" end="6000" personsPerHour="80"><personTrip from="E1" to="-E3"/></personFlow>
+    <personFlow id="pf_4" begin="0" end="6000" personsPerHour="80"><personTrip from="E3" to="-E1"/></personFlow>
+</routes>
